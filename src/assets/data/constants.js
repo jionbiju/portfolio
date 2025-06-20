@@ -31,7 +31,7 @@ export const skills = [
         skills: [
             {
                 name: "Node Js",
-                image: "https://nodejs.org/static/images/logo.svg",
+                image: "https://img.icons8.com/win10/512/FFFFFF/node-js.png",
             },
             {
                 name: "Express Js",
@@ -41,7 +41,7 @@ export const skills = [
             {
                 name: "MongoDB",
                 image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+                    "https://d2lgmzy8vjj79z.cloudfront.net/mongodb.svg",
             },
             {
                 name: "Firebase",

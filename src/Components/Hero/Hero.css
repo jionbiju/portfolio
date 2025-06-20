@@ -32,6 +32,11 @@
     cursor: pointer;
     border: none;
     margin-bottom: 70px;
+    transition: 0.3s ease-in-out;
+}
+.hero-cv:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0, 255, 127, 0.3);
 }
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -41,6 +46,4 @@
 .hero > * {
   animation: fadeInUp 0.6s ease forwards;
 }
-.hero-cv:hover{
-    border: 2px solid white;
-}
+

@@ -1,4 +1,6 @@
-
+import project_img1 from '../project_1.svg'
+import project_img2 from '../project_2.svg'
+import project_img3 from '../project_3.svg'
 
 
 export const skills = [
@@ -85,21 +87,22 @@ export const skills = [
 ]
 
 
-export const mywork_data = [
+export const projects = [
     {
         w_no:1,
         w_name:"Web design",
+        w_img:project_img1
 
     },
     {
         w_no:2,
         w_name:"Web design",
-
+        w_img:project_img2
     },
     {
         w_no:3,
         w_name:"Web design",
-
+        w_img:project_img3
     }
 ]
  

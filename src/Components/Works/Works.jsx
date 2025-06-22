@@ -3,7 +3,7 @@ import { projects } from '../../assets/data/constants'
 import './Works.css'
 const Works = () => {
   return (
-    <div className='works'>
+    <div className='works' id='works'>
       <h2>Projects</h2>
       <p>These are projects where I applied what I’ve learned in real-world scenarios</p>
       <div className="works-container">

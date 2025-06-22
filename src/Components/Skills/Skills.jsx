@@ -4,7 +4,7 @@ import { skills } from '../../assets/data/constants'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <h2>Skills</h2>
       <p>Here are some of my skills that I've been working on over the past 2 years.</p>
       <div className="skills-container">

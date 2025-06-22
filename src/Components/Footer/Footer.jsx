@@ -4,7 +4,7 @@ import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id='footer'>
       <p className="footer-text">© {new Date().getFullYear()} Jion Biju. All rights reserved.</p>
       <div className="footer-icons">
         <a href="https://linkedin.com/in/jion-biju-738072283" target="_blank" rel="noopener noreferrer">

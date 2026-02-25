@@ -11,19 +11,12 @@ const About = () => {
         <img className="about-img" src={profile} alt="Profile" />
 
         <div className="about-text">
+          
           <p>
-            I’m a 3rd-year Computer Science Engineering student at Vimal Jyothi
-            Engineering College, Kerala. My passion for technology has led me to
-            work on several college-level projects, helping me gain hands-on
-            experience in software development and improve my problem-solving
-            skills.
-          </p>
-
-          <p>
-            I love creating clean, user-friendly interfaces and constantly
-            strive to grow my skill set.I aim to become a well-rounded
-            full-stack developer and am excited about contributing to real-world
-            tech projects
+            I’m a Computer Science Engineering student at Vimal Jyothi Engineering College, Kerala,
+            passionate about software development and building clean, user-friendly
+            applications. I aim to grow as a full-stack developer through continuous learning and 
+            real-world projects.
           </p>
 
           <div className="about-info-grid">

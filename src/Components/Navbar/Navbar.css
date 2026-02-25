@@ -1,9 +1,9 @@
 .navbar{
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     margin: 35px 170px;
+    position: relative;
 }
 .title{
     font-size: 45px;
@@ -15,7 +15,13 @@
  .title span{
     color: #00ff7f;
     border-radius: 50%;
- }
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
 .nav-menu{
     display: flex;
@@ -69,4 +75,127 @@
 .anchor-link{
     text-decoration: none;
     color: white;
+}
+
+.nav-toggle{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav-toggle span{
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.nav-toggle.open span:nth-child(1){
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2){
+  opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3){
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Responsive Navbar */
+@media (max-width: 1024px) {
+  .navbar {
+    margin: 20px 40px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .nav-menu {
+    gap: 30px;
+    font-size: 16px;
+  }
+
+  .nav-menu-box {
+    padding: 14px 24px;
+  }
+
+  .contact-btn {
+    padding: 12px 22px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 772px) {
+  .navbar {
+    margin: 16px 20px;
+  }
+
+  .nav-toggle{
+    display: flex;
+  }
+
+  .nav-right{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    left: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    background: #232b2b;
+    border-radius: 16px;
+    border: 1px solid #00ff7f;
+    padding: 14px;
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    z-index: 10;
+  }
+
+  .nav-right.nav-open{
+    transform: scaleY(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-menu-box{
+    width: 100%;
+    padding: 10px 14px;
+  }
+
+  .nav-menu{
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .contact-btn{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    margin: 12px 12px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
 }

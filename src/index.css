@@ -1,9 +1,11 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   background: #232b2b;
   color: white;
   font-family: 'outfit';
+  overflow-x: hidden;
 }

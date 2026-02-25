@@ -1,6 +1,6 @@
-import project_img1 from '../project_1.svg'
-import project_img2 from '../project_2.svg'
-import project_img3 from '../project_3.svg'
+import project_img1 from '../project1.png'
+import project_img2 from '../project_2.png'
+import project_img3 from '../project_3.webp'
 
 
 export const skills = [
@@ -90,19 +90,29 @@ export const skills = [
 export const projects = [
     {
         w_no:1,
-        w_name:"Web design",
-        w_img:project_img1
+        w_name:"Background Remover",
+        w_img:project_img1,
+        w_details:"The Background Remover tool is a web application that allows users to remove backgrounds from images with ease. It uses advanced image processing techniques to isolate the main subject of an image and remove the background, providing a clean and professional look.",
+        w_tech:["React JS","Tailwind CSS", "Node JS", "Express JS", "MongoDB"],
+        w_github:"https://github.com/jionbiju/background_remover"
 
     },
     {
         w_no:2,
-        w_name:"Web design",
-        w_img:project_img2
+        w_name:"Medical Store Management System",
+        w_img:project_img2,
+        w_details:"This application helps manage medicines efficiently by allowing users to add, search, sort, update, and delete medicines while tracking stock levels and expiry dates through a modern and responsive UI.",
+        w_tech:["React JS", "Node JS", "Express JS", "MongoDB"],
+        w_github:"https://github.com/jionbiju/medical-store-management-system"
+
     },
     {
         w_no:3,
-        w_name:"Web design",
-        w_img:project_img3
+        w_name:"IoT-Face-Recognition-Attendance-System (on-going)",
+        w_img:project_img3,
+        w_details:"The IoT-Face-Recognition-Attendance-System is a web application that uses face recognition technology to automate attendance tracking. It integrates with IoT devices to capture facial data and logs attendance in real-time.",
+        w_tech:["Python","Flask","HTML5", "Bootstrap", "JavaScript", "SQLite"],
+        w_github:"https://github.com/jionbiju/IoT-Face-Recognition-Attendance-System"
     }
 ]
  

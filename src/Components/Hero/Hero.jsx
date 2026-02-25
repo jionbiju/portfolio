@@ -9,7 +9,7 @@ const Hero = () => {
       <h1>An aspiring software developer from Kerala, India.</h1>
        <p>Currently pursuing my B.Tech in Computer Science, and 
        working on real-world projects to shape my career in tech.</p>
-       <button className="hero-cv">Download CV</button>
+       
     </div>
   )
 }

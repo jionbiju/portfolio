@@ -18,8 +18,9 @@
 
 .about-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
   max-width: 1200px;
@@ -53,6 +54,8 @@
 @media screen and (max-width: 768px) {
   .about-section {
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .about-img {

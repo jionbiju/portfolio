@@ -227,6 +227,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .works-container {
+    grid-template-columns: 1fr;
     gap: 30px;
     padding: 0 15px;
   }
